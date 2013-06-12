@@ -1,7 +1,7 @@
 <?php
 include_once 'Lib/daemon.php';
 
-\DistrictWeb\PhpDaemon\Daemon::run();
+\DistrictWeb\PhpDaemon\Lib\Daemon::run();
 
 // declare(ticks=1);
 //pcntl_signal(SIGUSR1, function() {
