@@ -1,0 +1,19 @@
+{
+    "name": "districtweb/php-daemon",
+    "description": "php-daemon",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "you@company.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": { "DistrictWeb\\PhpDaemon": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "DistrictWeb/PhpDaemon"
+}

@@ -1,6 +1,9 @@
 <?php
 error_reporting(-1);
 ini_set('display_errors', true);
+
+namespace DistrictWeb\SphinxBundle\Lib;
+
 class Daemon {
 
 	private $pidfile;
